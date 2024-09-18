@@ -9,7 +9,7 @@ pipeline {
         stage("Exécution de l'image") {
             steps {
                 script {
-                    sh 'docker-compose up -d'
+                    sh 'docker compose up -d'
                 }
             }
         }
